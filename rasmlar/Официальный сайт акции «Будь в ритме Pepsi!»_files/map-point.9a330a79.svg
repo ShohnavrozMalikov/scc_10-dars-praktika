@@ -1,0 +1,12 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 21" width="16" height="21">
+    <defs>
+        <clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+            <path d="m-32-273h320v568h-320z"/>
+        </clipPath>
+        <image width="16" height="21" id="img1"
+               href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAVCAMAAAB44J7gAAAAAXNSR0IB2cksfwAAAIpQTFRFAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDAGXDKd2GLQAAAC50Uk5TABo8Si7G/0f1IvHWl6r9aQEC+oMJFAzw/hL0fZ77XST8yomM3juFBc0o9m3FExxagccAAAC2SURBVHicVY9ZEoJADEQjSLMjoALKJjuK3P96ZhigsH+S15N0aoiEToqqKifadNawSDtL1g2sMnTBpsWt7Tg2F8tkwwW8i0/kXzzAJQpC4Cp3r0AY0I0n79K4c3ujCIi3czEQiYnkIfmRiAn/CaTSSIEnp2dAXgguciDjWr44q6rrisurFC8NdjXLatRu3EYyrPMke912v5dGv/9/GAWPw27Q+wN83nTQBExHpuD7Df4Mmue1+QECHArxodNYhwAAAABJRU5ErkJggg=="/>
+    </defs>
+    <g clip-path="url(#cp1)">
+        <use href="#img1" x="0" y="0"/>
+    </g>
+</svg>

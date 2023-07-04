@@ -1,0 +1,307 @@
+.wrap{
+    width: 1200px;
+    background-color: #e8f1fa;
+}
+body{
+    background-color: #d0e5fb;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: #ffffff;
+}
+.navbar-menu{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.navbar-item{
+    display: inline-block;
+    padding: 25px 10px;
+}
+.navbar-item a{
+    color: #808080;
+    text-decoration: none;
+}
+.navbar-item:hover{
+    background-color:white;
+}
+.navbar-item a:hover{
+    color: #3be9eb;
+}
+.logo{
+    margin-right: 400px;
+    margin-bottom: -25px;
+}
+.text{
+    margin-top: -200px;
+}
+.wrap{
+    width: 1200px;
+    background-color: white;
+    margin: 20px auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.btn{
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #34c9eb;
+    border-bottom: 6px solid #248f91;
+    transition: all 2s ease-in;
+    border-radius: 10px;
+}
+.btn:active{
+    border-bottom-width: 3px;
+    margin-top: 3px;
+}
+.btn:focus{
+    border-bottom-width: 2px;
+    margin-top: 2px;
+}
+.btn:hover{
+    border-radius: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-left: 100px;
+}
+.navbar-item {
+    position: relative;
+}
+.navbar-item:after{
+    content: '';
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center center;
+    /*vertical-align: middle;
+    margin-left: 5px;*/
+    position: absolute;
+    top: 40%;
+    right: -8px;
+}
+.drop-menu{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    background-color: white;
+    z-index: 1;
+    display: none;
+}
+.navbar-item:hover .drop-menu{
+    display: block;
+}
+.drop-menu-item:hover > .drop-menu{
+    left: 100%;
+    top: 0;
+}
+.ayal{
+   font-size: 30px;
+    margin-top: 50px;
+}
+.row{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 40px;
+    margin-left: 260px;
+}
+.col-1{
+    border: 2px solid white;
+    width: 200px;
+    height: 180px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 19px;
+    line-height: 270px;
+    background-color: white;
+    margin: 10px 20px;
+    float: left;
+    background-image: url("../rasmlar/gsm.jpg");
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.col-2{
+    border: 2px solid white;
+    width: 200px;
+    height: 180px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 19px;
+    line-height: 270px;
+    background-color: white;
+    margin: 10px 20px;
+    float: left;
+}
+.col-3{
+    border: 2px solid white;
+    width: 200px;
+    height: 180px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 19px;
+    line-height: 270px;
+    background-color: white;
+    margin: 10px 20px;
+    float: left;
+}
+.col-4 {
+    border: 2px solid white;
+    width: 200px;
+    height: 180px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 19px;
+    line-height: 270px;
+    background-color: white;
+    margin: 10px 20px;
+    float: left;
+    background-image: url("../rasmlar/signal.png");
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.col-5{
+    border: 2px solid white;
+    width: 200px;
+    height: 180px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 19px;
+    line-height: 270px;
+    background-color: white;
+    margin: 10px 20px;
+    float: left;
+    background-image: url("../rasmlar/wifi.png");
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.col-6{
+    border: 2px solid white;
+    width: 200px;
+    height: 180px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 19px;
+    line-height: 30px;
+    background-color: white;
+    margin: 10px 20px;
+    float: left;
+    background-image: url("../rasmlar/spidametr.png");
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+.col-7{
+    border: 2px solid white;
+    width: 200px;
+    height: 180px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 19px;
+    line-height: 270px;
+    background-color: white;
+    margin: 10px 20px;
+    float: left;
+    background-image: url("../rasmlar/lokasiya.png");
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.col-8{
+    border: 2px solid white;
+    width: 200px;
+    height: 180px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 19px;
+    line-height: 30px;
+    background-color: white;
+    margin: 10px 20px;
+    float: left;
+    background-image: url("../rasmlar/roter.png");
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+.wwww{
+    margin-left: 280px;
+    margin-top: 55px;
+    border-radius: 20px;
+}
+h1{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 175px;
+    color: white;
+    font-size: 40px;
+}
+.img-box{
+    margin-top: -100px;
+}
+.text-box{
+    width: 430px;
+    height: 388px;
+    box-shadow: rgba(80,80,80,0.1);
+    background-color: white;
+    margin-left: 65%;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.m1n{
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 5px;
+}
+.btn-2{
+    width: 8%;
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: dimgray;
+    border-color: dimgray;
+    border-width: 2px;
+    border-style: solid;
+    transition: all 2s ease-in;
+    border-radius: 10px;
+    text-align: center;
+    margin: 15px 40px;
+}
+.abvg-2{
+    width: 430px;
+    height: 60px;
+    background-color: #2389d3;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    position: absolute;
+}
+.uuuu{
+    margin-left: 130px;
+}
+.hhhh{
+    width: 1200px;
+    height: 400px;
+}
+.kkkk{
+    width: 1700px;
+    height: 400px;
+
+    margin-bottom: 1500px;
+    margin-left: 100px;
+
+}
